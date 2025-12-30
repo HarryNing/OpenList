@@ -1,0 +1,62 @@
+### Adapted for Hugging Face Spaces
+ARG BASE_IMAGE_TAG=base
+
+FROM alpine:edge AS builder
+LABEL stage=go-builder
+WORKDIR /app/
+RUN apk add --no-cache bash curl jq gcc git go musl-dev
+COPY go.mod go.sum ./
+RUN go mod download
+COPY ./ ./
+RUN bash build.sh release docker
+
+FROM openlistteam/openlist-base-image:${BASE_IMAGE_TAG}
+LABEL MAINTAINER="OpenList"
+ARG INSTALL_ARIA2=false
+# HF Spaces typically use UID 1000
+ARG USER=openlist
+ARG UID=1000
+ARG GID=1000
+
+WORKDIR /app
+
+# Create necessary directories with correct permissions for HF
+RUN addgroup -g ${GID} ${USER} && \
+    adduser -D -u ${UID} -G ${USER} ${USER} && \
+    mkdir -p /opt/openlist/data && \
+    mkdir -p /users && \
+    mkdir -p /data && \
+    chown -R ${UID}:${GID} /opt/openlist/data && \
+    chown -R ${UID}:${GID} /users && \
+    chown -R ${UID}:${GID} /data
+
+COPY --from=builder --chmod=755 --chown=${UID}:${GID} /app/bin/openlist ./
+COPY --chmod=755 --chown=${UID}:${GID} entrypoint.sh /entrypoint.sh
+
+USER ${USER}
+RUN /entrypoint.sh version
+
+# HF Spaces specific configuration
+ENV UMASK=022 \
+    RUN_ARIA2=${INSTALL_ARIA2} \
+    TOKEN_EXPIRES_IN=876000 \
+    HTTP_PORT=7860 \
+    # Force data directory to /data if possible, otherwise we symlink or configure
+    # OpenList generally uses /opt/openlist/data/config.json. 
+    # We can symlink /opt/openlist/data to /data for HF persistence
+    dummy=val
+
+# Symlink /opt/openlist/data to /data so HF persistence works automatically
+# (Need to run this as root or ensure permissions before switching user, 
+# but we switched user above. Let's do it in the RUN block before switching user)
+
+USER root
+RUN rm -rf /opt/openlist/data && ln -s /data /opt/openlist/data && chown -h ${UID}:${GID} /opt/openlist/data
+USER ${USER}
+
+VOLUME /data
+VOLUME /users
+
+EXPOSE 7860
+
+CMD [ "/entrypoint.sh" ]

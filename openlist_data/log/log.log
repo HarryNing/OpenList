@@ -1,0 +1,894 @@
+[33mWARN[0m[2025-12-29 05:46:32] not enable search                            
+[36mINFO[0m[2025-12-29 05:46:32] init offline download tool ThunderX success: ok 
+[36mINFO[0m[2025-12-29 05:46:32] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2025-12-29 05:46:32] init offline download tool 123 Open success: ok 
+[33mWARN[0m[2025-12-29 05:46:32] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[36mINFO[0m[2025-12-29 05:46:32] init offline download tool SimpleHttp success: ok 
+[36mINFO[0m[2025-12-29 05:46:32] init offline download tool PikPak success: ok 
+[36mINFO[0m[2025-12-29 05:46:32] init offline download tool Thunder success: ok 
+[36mINFO[0m[2025-12-29 05:46:32] init offline download tool ThunderBrowser success: ok 
+[33mWARN[0m[2025-12-29 05:46:32] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[36mINFO[0m[2025-12-29 05:46:32] init offline download tool 115 Open success: ok 
+[33mWARN[0m[2025-12-29 05:46:32] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[31mERRO[0m[2025-12-29 05:46:32] failed get enabled storages: root folder /users/test_verify/test_verifyFiles not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 05:46:32] failed get enabled storages: root folder /users/test_verify not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 05:46:32] failed get enabled storages: root folder /users/test_verify not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mFATA[0m[2025-12-29 05:46:32] index.html not exist, you may forget to put dist of frontend to public/dist 
+[33mWARN[0m[2025-12-29 05:48:35] not enable search                            
+[33mWARN[0m[2025-12-29 05:48:35] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[36mINFO[0m[2025-12-29 05:48:35] init offline download tool Thunder success: ok 
+[36mINFO[0m[2025-12-29 05:48:35] init offline download tool ThunderBrowser success: ok 
+[36mINFO[0m[2025-12-29 05:48:35] init offline download tool ThunderX success: ok 
+[33mWARN[0m[2025-12-29 05:48:35] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[36mINFO[0m[2025-12-29 05:48:35] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2025-12-29 05:48:35] init offline download tool 123 Open success: ok 
+[36mINFO[0m[2025-12-29 05:48:35] init offline download tool SimpleHttp success: ok 
+[36mINFO[0m[2025-12-29 05:48:35] init offline download tool PikPak success: ok 
+[36mINFO[0m[2025-12-29 05:48:35] init offline download tool 115 Open success: ok 
+[33mWARN[0m[2025-12-29 05:48:35] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[31mERRO[0m[2025-12-29 05:48:35] failed get enabled storages: root folder /users/test_verify/test_verifyFiles not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 05:48:35] failed get enabled storages: root folder /users/test_verify not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 05:48:35] failed get enabled storages: root folder /users/test_verify not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[36mINFO[0m[2025-12-29 05:48:35] start HTTP server @ 0.0.0.0:5244             
+[GIN] 2025/12/29 - 05:48:40 | 200 |    2.429505ms |   192.168.215.1 | POST     "/api/auth/login"
+[36mINFO[0m[2025-12-29 05:48:40] Debug CreateStorage: User=test_virtual IsAdmin=false MountPath=/root_mount_attempt BasePath=/users/test_virtual 
+[GIN] 2025/12/29 - 05:48:40 | 200 |    5.112035ms |   192.168.215.1 | POST     "/api/admin/storage/create"
+[36mINFO[0m[2025-12-29 05:48:40] Debug CreateStorage: User=test_virtual IsAdmin=false MountPath=/users/test_virtual/my_cloud BasePath=/users/test_virtual 
+[31mERRO[0m[2025-12-29 05:48:40] Debug CreateStorage Failed: failed init storage but storage is already created: failed init storage: root folder /users/test_virtual not exists 
+[31mERRO[0m[2025-12-29 05:48:40] failed init storage but storage is already created: failed init storage: root folder /users/test_virtual not exists 
+[GIN] 2025/12/29 - 05:48:40 | 200 |    2.435174ms |   192.168.215.1 | POST     "/api/admin/storage/create"
+[GIN] 2025/12/29 - 05:51:35 | 200 |    5.638836ms |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 05:51:45 | 200 |    12.75922ms |   192.168.215.1 | POST     "/api/auth/login"
+[GIN] 2025/12/29 - 05:51:45 | 200 |     368.099µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 05:52:43 | 200 |    11.89064ms |   192.168.215.1 | POST     "/api/auth/login"
+[36mINFO[0m[2025-12-29 05:52:43] Debug CreateStorage: User=test_virtual IsAdmin=false MountPath=/users/test_virtual/139 BasePath=/users/test_virtual 
+[GIN] 2025/12/29 - 05:52:44 | 200 |  508.363181ms |   192.168.215.1 | POST     "/api/admin/storage/create"
+[GIN] 2025/12/29 - 05:53:03 | 200 |     200.592µs |   192.168.215.1 | POST     "/api/auth/login"
+[36mINFO[0m[2025-12-29 05:53:03] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_verify Match=false 
+[36mINFO[0m[2025-12-29 05:53:03] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_verify/final_test_mount Match=false 
+[36mINFO[0m[2025-12-29 05:53:03] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_verify/final_test_mount_2 Match=false 
+[36mINFO[0m[2025-12-29 05:53:03] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_virtual/my_cloud Match=true 
+[36mINFO[0m[2025-12-29 05:53:03] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_virtual/139 Match=true 
+[GIN] 2025/12/29 - 05:53:03 | 200 |    2.833706ms |   192.168.215.1 | GET      "/api/storage/list?page=1&per_page=10"
+[GIN] 2025/12/29 - 05:53:37 | 200 |    2.617822ms |   192.168.215.1 | POST     "/api/auth/login"
+[31mERRO[0m[2025-12-29 05:53:37] failed list /users/test_virtual/users/test_virtual/139: storage not found; rawPath: /users/test_virtual/users/test_virtual/139
+failed get storage 
+[GIN] 2025/12/29 - 05:53:37 | 200 |   10.119272ms |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 05:53:54 | 200 |    1.096467ms |   192.168.215.1 | POST     "/api/auth/login"
+[GIN] 2025/12/29 - 05:53:54 | 200 |  711.031252ms |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 05:54:28 | 200 |    9.783159ms |   192.168.215.1 | POST     "/api/auth/login"
+[GIN] 2025/12/29 - 05:54:28 | 200 |  334.898592ms |   192.168.215.1 | POST     "/api/fs/list"
+[36mINFO[0m[2025-12-29 07:03:04] Start cache GC                               
+[33mWARN[0m[2025-12-29 07:10:14] not enable search                            
+[36mINFO[0m[2025-12-29 07:10:14] init offline download tool SimpleHttp success: ok 
+[33mWARN[0m[2025-12-29 07:10:14] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[36mINFO[0m[2025-12-29 07:10:14] init offline download tool Thunder success: ok 
+[33mWARN[0m[2025-12-29 07:10:14] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[33mWARN[0m[2025-12-29 07:10:14] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[36mINFO[0m[2025-12-29 07:10:14] init offline download tool PikPak success: ok 
+[36mINFO[0m[2025-12-29 07:10:14] init offline download tool ThunderBrowser success: ok 
+[36mINFO[0m[2025-12-29 07:10:14] init offline download tool ThunderX success: ok 
+[36mINFO[0m[2025-12-29 07:10:14] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2025-12-29 07:10:14] init offline download tool 115 Open success: ok 
+[36mINFO[0m[2025-12-29 07:10:14] init offline download tool 123 Open success: ok 
+[31mERRO[0m[2025-12-29 07:10:14] failed get enabled storages: root folder /users/test_verify/test_verifyFiles not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 07:10:14] failed get enabled storages: root folder /users/test_verify not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 07:10:14] failed get enabled storages: root folder /users/test_verify not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 07:10:14] failed get enabled storages: root folder /users/test_virtual not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[36mINFO[0m[2025-12-29 07:10:14] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2025-12-29 07:10:15] success load storage: [/users/test_virtual/139], driver: [139Yun], order: [0] 
+[GIN] 2025/12/29 - 07:10:25 | 405 |      14.834µs |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 07:10:25 | 200 |      536.09µs |   192.168.215.1 | GET      "/api/admin/driver/list"
+[GIN] 2025/12/29 - 07:10:29 | 200 |     648.049µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 07:10:29 | 200 |      165.71µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:10:29 | 200 |    2.290277ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[36mINFO[0m[2025-12-29 07:11:26] Debug CreateStorage: User=test_verify IsAdmin=false MountPath=/ BasePath=/users/test_verify 
+[GIN] 2025/12/29 - 07:11:26 | 200 |    1.722604ms |   192.168.215.1 | POST     "/api/admin/storage/create"
+[36mINFO[0m[2025-12-29 07:11:30] Debug CreateStorage: User=test_verify IsAdmin=false MountPath=/ BasePath=/users/test_verify 
+[GIN] 2025/12/29 - 07:11:30 | 200 |     824.176µs |   192.168.215.1 | POST     "/api/admin/storage/create"
+[GIN] 2025/12/29 - 07:11:57 | 200 |      72.209µs |   192.168.215.1 | GET      "/@manage/storages/add"
+[GIN] 2025/12/29 - 07:11:57 | 200 |    2.988285ms |   192.168.215.1 | GET      "/manifest.json"
+[36mINFO[0m[2025-12-29 07:12:04] Debug CreateStorage: User=test_verify IsAdmin=false MountPath=/ BasePath=/users/test_verify 
+[GIN] 2025/12/29 - 07:12:04 | 200 |     450.755µs |   192.168.215.1 | POST     "/api/admin/storage/create"
+[33mWARN[0m[2025-12-29 07:23:21] not enable search                            
+[36mINFO[0m[2025-12-29 07:23:21] init offline download tool ThunderBrowser success: ok 
+[36mINFO[0m[2025-12-29 07:23:21] init offline download tool ThunderX success: ok 
+[36mINFO[0m[2025-12-29 07:23:21] init offline download tool 115 Open success: ok 
+[33mWARN[0m[2025-12-29 07:23:21] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[33mWARN[0m[2025-12-29 07:23:21] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[36mINFO[0m[2025-12-29 07:23:21] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2025-12-29 07:23:21] init offline download tool 123 Open success: ok 
+[33mWARN[0m[2025-12-29 07:23:21] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[36mINFO[0m[2025-12-29 07:23:21] init offline download tool SimpleHttp success: ok 
+[36mINFO[0m[2025-12-29 07:23:21] init offline download tool PikPak success: ok 
+[36mINFO[0m[2025-12-29 07:23:21] init offline download tool Thunder success: ok 
+[31mERRO[0m[2025-12-29 07:23:21] failed get enabled storages: root folder /users/test_verify/test_verifyFiles not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 07:23:21] failed get enabled storages: root folder /users/test_verify not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 07:23:21] failed get enabled storages: root folder /users/test_verify not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[31mERRO[0m[2025-12-29 07:23:21] failed get enabled storages: root folder /users/test_virtual not exists
+failed init storage
+github.com/OpenListTeam/OpenList/v4/internal/op.initStorage
+	/app/internal/op/storage.go:145
+github.com/OpenListTeam/OpenList/v4/internal/op.LoadStorage
+	/app/internal/op/storage.go:85
+github.com/OpenListTeam/OpenList/v4/internal/bootstrap.LoadStorages.func1
+	/app/internal/bootstrap/storage.go:20
+runtime.goexit
+	/usr/lib/go/src/runtime/asm_arm64.s:1268 
+[36mINFO[0m[2025-12-29 07:23:21] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2025-12-29 07:23:22] success load storage: [/users/test_virtual/139], driver: [139Yun], order: [0] 
+[GIN] 2025/12/29 - 07:30:52 | 405 |    2.780657ms |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 07:30:52 | 200 |    8.984146ms |   192.168.215.1 | POST     "/api/admin/storage/create"
+[GIN] 2025/12/29 - 07:30:54 | 200 |     1.71927ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 07:30:54 | 200 |     285.003µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:30:54 | 200 |    4.425719ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[36mINFO[0m[2025-12-29 07:31:38] Debug CreateStorage: User=test_verify IsAdmin=false MountPath=/ BasePath=/users/test_verify 
+[31mERRO[0m[2025-12-29 07:31:38] Debug CreateStorage Failed: failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[31mERRO[0m[2025-12-29 07:31:38] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2025/12/29 - 07:31:38 | 200 |    2.657198ms |   192.168.215.1 | POST     "/api/admin/storage/create"
+[GIN] 2025/12/29 - 07:34:30 | 200 |    2.252443ms |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 07:34:33 | 200 |    2.978035ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 07:34:33 | 200 |     101.334µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:34:33 | 200 |    3.352914ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[GIN] 2025/12/29 - 07:34:35 | 200 |     212.878µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 07:34:35 | 200 |    1.627894ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 07:35:37 | 200 |    8.143136ms |   192.168.215.1 | POST     "/api/admin/storage/delete?id=3"
+[GIN] 2025/12/29 - 07:35:37 | 200 |     466.339µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 07:35:41 | 200 |    1.542518ms |   192.168.215.1 | POST     "/api/admin/storage/delete?id=1"
+[GIN] 2025/12/29 - 07:35:41 | 200 |     665.758µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 07:35:43 | 200 |    2.298693ms |   192.168.215.1 | POST     "/api/admin/storage/delete?id=4"
+[GIN] 2025/12/29 - 07:35:43 | 200 |     366.462µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 07:35:45 | 200 |     886.135µs |   192.168.215.1 | POST     "/api/admin/storage/delete?id=2"
+[GIN] 2025/12/29 - 07:35:45 | 200 |     398.422µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 07:35:47 | 200 |    1.688311ms |   192.168.215.1 | POST     "/api/admin/storage/delete?id=5"
+[GIN] 2025/12/29 - 07:35:47 | 200 |      626.09µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 07:35:50 | 200 |     353.296µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 07:35:57 | 200 |    1.311557ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 07:35:57 | 200 |     170.669µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:35:57 | 200 |     181.502µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 07:35:57 | 200 |     903.761µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 07:39:40 | 200 |    8.122386ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[GIN] 2025/12/29 - 07:39:46 | 200 |     272.295µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 07:39:47 | 200 |    1.633894ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 07:39:47 | 200 |      138.71µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:39:47 | 200 |    1.509642ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[36mINFO[0m[2025-12-29 07:40:43] Debug CreateStorage: User=test_verify IsAdmin=false MountPath=/ BasePath=/users/test_verify 
+[GIN] 2025/12/29 - 07:40:43 | 200 |   343.23896ms |   192.168.215.1 | POST     "/api/admin/storage/create"
+[GIN] 2025/12/29 - 07:40:45 | 200 |     516.589µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 07:40:46 | 200 |     370.587µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:40:46 | 200 |    4.333426ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[GIN] 2025/12/29 - 07:40:53 | 200 |   11.691511ms |   192.168.215.1 | GET      "/@manage/storages"
+[GIN] 2025/12/29 - 07:40:53 | 302 |    4.349218ms |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:41:01 | 200 |          55µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:41:18 | 200 |      35.167µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:11 | 200 |    1.599019ms |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:11 | 302 |    1.969356ms |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:12 | 200 |     184.419µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:12 | 302 |      34.959µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:12 | 200 |      66.417µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:12 | 302 |       19.75µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:26 | 200 |     108.835µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:26 | 302 |      18.042µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:27 | 200 |      79.293µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:27 | 302 |      18.917µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:40 | 200 |       89.46µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:40 | 302 |       18.25µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:41 | 200 |      70.251µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:41 | 302 |      45.959µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:42 | 200 |      74.417µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:42 | 302 |      18.208µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:42 | 200 |       72.75µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:43 | 302 |      18.459µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:43 | 200 |     106.293µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:43 | 302 |      17.708µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:43 | 200 |     112.376µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:44 | 302 |      19.125µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:44 | 200 |      87.126µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:44 | 302 |       19.75µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:44 | 200 |      124.96µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:44 | 302 |          18µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:45 | 200 |      88.584µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:45 | 302 |      19.083µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:46 | 200 |     105.376µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:46 | 302 |      18.042µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:47 | 200 |      162.46µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:47 | 302 |      22.667µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:43:54 | 200 |     140.168µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:43:54 | 302 |      20.541µs |   192.168.215.1 | GET      "/favicon.ico"
+[33mWARN[0m[2025-12-29 07:45:55] not enable search                            
+[36mINFO[0m[2025-12-29 07:45:55] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2025-12-29 07:45:55] init offline download tool 115 Open success: ok 
+[36mINFO[0m[2025-12-29 07:45:55] init offline download tool 123 Open success: ok 
+[33mWARN[0m[2025-12-29 07:45:55] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[33mWARN[0m[2025-12-29 07:45:55] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[36mINFO[0m[2025-12-29 07:45:55] init offline download tool Thunder success: ok 
+[36mINFO[0m[2025-12-29 07:45:55] init offline download tool ThunderX success: ok 
+[33mWARN[0m[2025-12-29 07:45:55] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[36mINFO[0m[2025-12-29 07:45:55] init offline download tool SimpleHttp success: ok 
+[36mINFO[0m[2025-12-29 07:45:55] init offline download tool PikPak success: ok 
+[36mINFO[0m[2025-12-29 07:45:55] init offline download tool ThunderBrowser success: ok 
+[36mINFO[0m[2025-12-29 07:45:55] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2025-12-29 07:45:55] success load storage: [/users/test_verify], driver: [139Yun], order: [0] 
+[GIN] 2025/12/29 - 07:46:32 | 405 |        2.75µs |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:32 | 405 |       2.084µs |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:32 | 200 |     116.585µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:32 | 302 |      97.251µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:33 | 200 |     104.168µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:33 | 302 |      16.625µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:34 | 200 |      73.209µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:34 | 302 |      16.583µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:34 | 200 |      68.876µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:34 | 302 |      17.667µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:34 | 200 |      106.21µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:34 | 302 |      17.042µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:34 | 200 |      91.626µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:34 | 302 |      32.501µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:34 | 200 |      83.626µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:35 | 302 |      16.833µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:35 | 200 |      64.959µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:35 | 302 |      16.875µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:35 | 200 |      77.042µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:35 | 302 |      18.375µs |   192.168.215.1 | GET      "/favicon.ico"
+[GIN] 2025/12/29 - 07:46:36 | 200 |     104.585µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:46:36 | 302 |      36.876µs |   192.168.215.1 | GET      "/favicon.ico"
+[33mWARN[0m[2025-12-29 07:50:55] not enable search                            
+[33mWARN[0m[2025-12-29 07:50:55] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[33mWARN[0m[2025-12-29 07:50:55] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[36mINFO[0m[2025-12-29 07:50:55] init offline download tool PikPak success: ok 
+[36mINFO[0m[2025-12-29 07:50:55] init offline download tool Thunder success: ok 
+[36mINFO[0m[2025-12-29 07:50:55] init offline download tool ThunderBrowser success: ok 
+[36mINFO[0m[2025-12-29 07:50:55] init offline download tool ThunderX success: ok 
+[36mINFO[0m[2025-12-29 07:50:55] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2025-12-29 07:50:55] init offline download tool 115 Open success: ok 
+[36mINFO[0m[2025-12-29 07:50:55] init offline download tool 123 Open success: ok 
+[33mWARN[0m[2025-12-29 07:50:55] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[36mINFO[0m[2025-12-29 07:50:55] init offline download tool SimpleHttp success: ok 
+[36mINFO[0m[2025-12-29 07:50:55] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2025-12-29 07:50:56] success load storage: [/users/test_verify], driver: [139Yun], order: [0] 
+[GIN] 2025/12/29 - 07:52:33 | 405 |      24.667µs |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 07:52:33 | 200 |     364.879µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 07:52:33 | 200 |     1.00272ms |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 07:52:33 | 200 |     752.509µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 07:52:33 | 200 |    3.408581ms |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:52:34 | 200 |    2.294693ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 07:52:34 | 200 |     163.293µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:52:34 | 200 |     821.676µs |   192.168.215.1 | POST     "/api/fs/get"
+[GIN] 2025/12/29 - 07:52:34 | 200 |    1.214431ms |   192.168.215.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2025/12/29 - 07:52:35 | 200 |  722.574763ms |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 07:52:44 | 200 |     129.543µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:52:48 | 200 |     527.672µs |   192.168.215.1 | GET      "/api/share/list"
+[GIN] 2025/12/29 - 07:52:52 | 200 |     287.336µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 07:52:55 | 200 |    1.157055ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 07:52:55 | 200 |     107.668µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 07:52:57 | 200 |     193.378µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 07:52:57 | 200 |    1.965731ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[33mWARN[0m[2025-12-29 08:07:46] not enable search                            
+[36mINFO[0m[2025-12-29 08:07:46] init offline download tool ThunderBrowser success: ok 
+[36mINFO[0m[2025-12-29 08:07:46] init offline download tool ThunderX success: ok 
+[33mWARN[0m[2025-12-29 08:07:46] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[36mINFO[0m[2025-12-29 08:07:46] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2025-12-29 08:07:46] init offline download tool 123 Open success: ok 
+[33mWARN[0m[2025-12-29 08:07:46] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[36mINFO[0m[2025-12-29 08:07:46] init offline download tool PikPak success: ok 
+[36mINFO[0m[2025-12-29 08:07:46] init offline download tool 115 Open success: ok 
+[36mINFO[0m[2025-12-29 08:07:46] init offline download tool SimpleHttp success: ok 
+[33mWARN[0m[2025-12-29 08:07:46] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[36mINFO[0m[2025-12-29 08:07:46] init offline download tool Thunder success: ok 
+[36mINFO[0m[2025-12-29 08:07:46] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2025-12-29 08:07:46] success load storage: [/users/test_verify], driver: [139Yun], order: [0] 
+[GIN] 2025/12/29 - 08:08:45 | 405 |       5.958µs |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 08:08:45 | 405 |         666ns |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 08:08:45 | 200 |    2.371957ms |   192.168.215.1 | GET      "/@manage/storages/add"
+[GIN] 2025/12/29 - 08:08:45 | 200 |     5.85529ms |   192.168.215.1 | GET      "/assets/index-D0Rz2xwo.js"
+[GIN] 2025/12/29 - 08:08:45 | 200 |     842.137µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:08:45 | 200 |     725.933µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:08:45 | 200 |    4.059646ms |   192.168.215.1 | GET      "/assets/entry-LVZRoK9D.js"
+[GIN] 2025/12/29 - 08:08:45 | 200 |    2.066426ms |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:08:45 | 200 |      32.207µs |   192.168.215.1 | GET      "/assets/useTitle-DTiUuPZO.js"
+[GIN] 2025/12/29 - 08:08:45 | 200 |    2.084175ms |   192.168.215.1 | GET      "/assets/index-C6POiPQ3.js"
+[GIN] 2025/12/29 - 08:08:46 | 200 |    3.079848ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 08:08:46 | 200 |     158.952µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:08:46 | 200 |     265.449µs |   192.168.215.1 | GET      "/assets/index-zHrCphy_.js"
+[GIN] 2025/12/29 - 08:08:46 | 200 |     143.662µs |   192.168.215.1 | GET      "/assets/index-CKc-XCSA.js"
+[GIN] 2025/12/29 - 08:08:46 | 200 |     815.929µs |   192.168.215.1 | GET      "/assets/index-DafZgExI.js"
+[GIN] 2025/12/29 - 08:08:46 | 200 |      52.873µs |   192.168.215.1 | GET      "/assets/ResponsiveGrid-DOMbo7yd.js"
+[GIN] 2025/12/29 - 08:08:46 | 200 |     119.912µs |   192.168.215.1 | GET      "/assets/AddOrEdit-Cvtt0m0H.js"
+[GIN] 2025/12/29 - 08:08:46 | 200 |    4.718498ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[GIN] 2025/12/29 - 08:08:49 | 200 |      63.331µs |   192.168.215.1 | GET      "/assets/DeletePopover-y_ZrhBO8.js"
+[GIN] 2025/12/29 - 08:08:49 | 200 |       63.79µs |   192.168.215.1 | GET      "/assets/Storages-DmRqaEuq.js"
+[GIN] 2025/12/29 - 08:08:49 | 200 |     172.577µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 08:08:49 | 200 |     938.425µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:08:52 | 200 |     100.705µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 08:08:55 | 200 |     513.648µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 08:08:55 | 200 |      94.622µs |   192.168.215.1 | GET      "/api/me"
+[36mINFO[0m[2025-12-29 08:08:55] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[GIN] 2025/12/29 - 08:08:55 | 200 |     547.439µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:08:55 | 200 |      58.122µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 08:08:58 | 200 |      90.539µs |   192.168.215.1 | GET      "/@manage/storages"
+[GIN] 2025/12/29 - 08:08:58 | 200 |      31.999µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:08:58 | 200 |      88.663µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:08:58 | 200 |      88.788µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:08:58 | 200 |      93.789µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:08:58] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[GIN] 2025/12/29 - 08:08:58 | 200 |     487.358µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:08:58 | 200 |      64.748µs |   192.168.215.1 | GET      "/@manage/storages"
+[GIN] 2025/12/29 - 08:08:59 | 200 |       97.33µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:08:59 | 200 |      21.499µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:08:59 | 200 |      85.955µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:08:59 | 200 |     143.995µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:08:59] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[GIN] 2025/12/29 - 08:08:59 | 200 |     452.526µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:09:02 | 200 |      92.122µs |   192.168.215.1 | GET      "/@manage/storages"
+[GIN] 2025/12/29 - 08:09:02 | 200 |      30.208µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:09:02 | 200 |      55.248µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:09:02 | 200 |     154.453µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:09:02 | 200 |      165.41µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:09:02] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[GIN] 2025/12/29 - 08:09:02 | 200 |     642.144µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:09:02 | 200 |      78.706µs |   192.168.215.1 | GET      "/@manage/storages"
+[GIN] 2025/12/29 - 08:09:03 | 200 |      78.747µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:09:03 | 200 |       14.75µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:09:03 | 200 |      85.497µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:09:03 | 200 |      168.41µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:09:03] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[GIN] 2025/12/29 - 08:09:03 | 200 |     649.977µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:09:03 | 200 |      95.955µs |   192.168.215.1 | GET      "/@manage/storages"
+[GIN] 2025/12/29 - 08:09:03 | 200 |      31.915µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:09:03 | 200 |      83.913µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:09:03 | 200 |     100.788µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:09:03 | 200 |      96.997µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:09:03] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[GIN] 2025/12/29 - 08:09:03 | 200 |     639.644µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:09:07 | 200 |     150.745µs |   192.168.215.1 | GET      "/assets/helper-CQPSTYf5.js"
+[GIN] 2025/12/29 - 08:09:07 | 200 |      24.457µs |   192.168.215.1 | GET      "/assets/offline_download-n5N2uWQf.js"
+[GIN] 2025/12/29 - 08:09:07 | 200 |      90.413µs |   192.168.215.1 | GET      "/assets/Paginator-DHxxUeDC.js"
+[GIN] 2025/12/29 - 08:09:07 | 200 |     181.951µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 08:09:07 | 200 |      33.666µs |   192.168.215.1 | GET      "/api/task/offline_download/done"
+[GIN] 2025/12/29 - 08:09:07 | 200 |      38.332µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 08:09:07 | 200 |     120.454µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/done"
+[GIN] 2025/12/29 - 08:09:09 | 200 |     131.245µs |   192.168.215.1 | GET      "/assets/Upload-nxsg6maG.js"
+[GIN] 2025/12/29 - 08:09:09 | 200 |      83.872µs |   192.168.215.1 | GET      "/api/task/upload/undone"
+[GIN] 2025/12/29 - 08:09:09 | 200 |      62.123µs |   192.168.215.1 | GET      "/api/task/upload/done"
+[GIN] 2025/12/29 - 08:09:09 | 200 |     219.409µs |   192.168.215.1 | GET      "/assets/Copy-DqwFDdrY.js"
+[GIN] 2025/12/29 - 08:09:09 | 200 |      91.455µs |   192.168.215.1 | GET      "/api/task/copy/undone"
+[GIN] 2025/12/29 - 08:09:09 | 200 |      62.331µs |   192.168.215.1 | GET      "/api/task/copy/done"
+[GIN] 2025/12/29 - 08:09:11 | 200 |      45.623µs |   192.168.215.1 | GET      "/assets/Move-DCHBPZik.js"
+[GIN] 2025/12/29 - 08:09:11 | 200 |      78.914µs |   192.168.215.1 | GET      "/api/task/move/undone"
+[GIN] 2025/12/29 - 08:09:11 | 200 |      64.498µs |   192.168.215.1 | GET      "/api/task/move/done"
+[GIN] 2025/12/29 - 08:09:11 | 200 |     146.162µs |   192.168.215.1 | GET      "/assets/Decompress-CDVucYsc.js"
+[GIN] 2025/12/29 - 08:09:11 | 200 |      89.622µs |   192.168.215.1 | GET      "/api/task/decompress/undone"
+[GIN] 2025/12/29 - 08:09:11 | 200 |      69.956µs |   192.168.215.1 | GET      "/api/task/decompress_upload/undone"
+[GIN] 2025/12/29 - 08:09:11 | 200 |     102.329µs |   192.168.215.1 | GET      "/api/task/decompress/done"
+[GIN] 2025/12/29 - 08:09:11 | 200 |     114.371µs |   192.168.215.1 | GET      "/api/task/decompress_upload/done"
+[GIN] 2025/12/29 - 08:09:13 | 200 |     386.403µs |   192.168.215.1 | GET      "/api/task/decompress_upload/undone"
+[GIN] 2025/12/29 - 08:09:13 | 200 |     561.564µs |   192.168.215.1 | GET      "/api/task/decompress/undone"
+[GIN] 2025/12/29 - 08:09:14 | 200 |     214.492µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:09:14] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[GIN] 2025/12/29 - 08:09:14 | 200 |     417.735µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:09:16 | 200 |     370.195µs |   192.168.215.1 | GET      "/api/admin/storage/get?id=6"
+[GIN] 2025/12/29 - 08:09:16 | 200 |     234.366µs |   192.168.215.1 | GET      "/api/admin/driver/info?driver=139Yun"
+[GIN] 2025/12/29 - 08:09:24 | 200 |     220.367µs |   192.168.215.1 | GET      "/assets/Profile-RaE4upW4.js"
+[GIN] 2025/12/29 - 08:09:24 | 200 |      97.288µs |   192.168.215.1 | GET      "/assets/PublicKeys-lHtNEWcf.js"
+[GIN] 2025/12/29 - 08:09:27 | 200 |     161.202µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 08:09:27 | 200 |      61.247µs |   192.168.215.1 | GET      "/api/task/offline_download/done"
+[GIN] 2025/12/29 - 08:09:27 | 200 |      57.373µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 08:09:27 | 200 |     115.162µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/done"
+[GIN] 2025/12/29 - 08:09:29 | 200 |     189.119µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 08:09:29 | 200 |      88.289µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 08:09:29 | 200 |     101.663µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:09:29] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[GIN] 2025/12/29 - 08:09:29 | 200 |     546.272µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:09:31 | 200 |     264.116µs |   192.168.215.1 | GET      "/api/admin/storage/get?id=6"
+[GIN] 2025/12/29 - 08:09:31 | 200 |     119.037µs |   192.168.215.1 | GET      "/api/admin/driver/info?driver=139Yun"
+[GIN] 2025/12/29 - 08:09:39 | 200 |      87.247µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 08:09:39 | 200 |      91.788µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:09:39 | 200 |      81.164µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:09:39 | 200 |      16.125µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:09:39 | 200 |      193.16µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:09:40 | 200 |     993.214µs |   192.168.215.1 | GET      "/assets/index-Bb1zkoKc.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |       24.75µs |   192.168.215.1 | GET      "/assets/index-BOsP-7t6.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |       56.79µs |   192.168.215.1 | GET      "/assets/FolderTree-Byl0Kh0v.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |      36.248µs |   192.168.215.1 | GET      "/assets/share-CAynn1lX.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |    1.507904ms |   192.168.215.1 | GET      "/assets/Layout-ySNFVCyG.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |    1.001673ms |   192.168.215.1 | POST     "/api/fs/get"
+[GIN] 2025/12/29 - 08:09:40 | 200 |    1.780436ms |   192.168.215.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2025/12/29 - 08:09:40 | 200 |  513.451492ms |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 08:09:40 | 200 |      441.65µs |   192.168.215.1 | GET      "/assets/Folder-B_GrgVl4.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |      80.831µs |   192.168.215.1 | GET      "/assets/icon-C52giWTR.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |     684.892µs |   192.168.215.1 | GET      "/assets/video_box-3MEeyN01.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |     118.079µs |   192.168.215.1 | GET      "/assets/style-CT4BcztM.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |     123.704µs |   192.168.215.1 | GET      "/assets/List-CH0nmbiR.js"
+[GIN] 2025/12/29 - 08:09:40 | 200 |     102.496µs |   192.168.215.1 | GET      "/assets/helper-Avf4xCY2.js"
+[33mWARN[0m[2025-12-29 08:14:42] not enable search                            
+[33mWARN[0m[2025-12-29 08:14:42] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[36mINFO[0m[2025-12-29 08:14:42] init offline download tool Thunder success: ok 
+[36mINFO[0m[2025-12-29 08:14:42] init offline download tool 123 Open success: ok 
+[36mINFO[0m[2025-12-29 08:14:42] init offline download tool PikPak success: ok 
+[36mINFO[0m[2025-12-29 08:14:42] init offline download tool ThunderBrowser success: ok 
+[36mINFO[0m[2025-12-29 08:14:42] init offline download tool ThunderX success: ok 
+[33mWARN[0m[2025-12-29 08:14:42] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[36mINFO[0m[2025-12-29 08:14:42] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2025-12-29 08:14:42] init offline download tool 115 Open success: ok 
+[33mWARN[0m[2025-12-29 08:14:42] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[36mINFO[0m[2025-12-29 08:14:42] init offline download tool SimpleHttp success: ok 
+[36mINFO[0m[2025-12-29 08:14:42] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2025-12-29 08:14:42] success load storage: [/users/test_verify], driver: [139Yun], order: [0] 
+[GIN] 2025/12/29 - 08:31:27 | 405 |     1.07447ms |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 08:31:27 | 200 |    5.381227ms |   192.168.215.1 | GET      "/api/admin/user/list"
+[GIN] 2025/12/29 - 08:31:31 | 200 |    2.123815ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 08:31:31 | 200 |     164.085µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:31:31 | 200 |     782.634µs |   192.168.215.1 | GET      "/api/admin/user/list"
+[GIN] 2025/12/29 - 08:31:38 | 200 |      93.001µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 08:31:41 | 200 |     660.009µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 08:31:42 | 200 |     138.752µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:31:42 | 200 |     129.918µs |   192.168.215.1 | GET      "/api/admin/user/list"
+[GIN] 2025/12/29 - 08:31:45 | 200 |     615.259µs |   192.168.215.1 | GET      "/@manage/users"
+[GIN] 2025/12/29 - 08:31:45 | 200 |      78.709µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:31:45 | 200 |     573.217µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:31:45 | 200 |      90.626µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:31:45 | 200 |     185.544µs |   192.168.215.1 | GET      "/assets/Users-DIAiQSeF.js"
+[GIN] 2025/12/29 - 08:31:45 | 200 |      24.875µs |   192.168.215.1 | GET      "/assets/Wether-CMMmz29L.js"
+[GIN] 2025/12/29 - 08:31:45 | 200 |     103.252µs |   192.168.215.1 | GET      "/api/admin/user/list"
+[GIN] 2025/12/29 - 08:31:46 | 200 |      60.376µs |   192.168.215.1 | GET      "/@manage/users"
+[GIN] 2025/12/29 - 08:31:46 | 200 |      86.501µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:31:46 | 200 |      12.916µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:31:46 | 200 |     113.543µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:31:46 | 200 |     102.668µs |   192.168.215.1 | GET      "/api/admin/user/list"
+[GIN] 2025/12/29 - 08:31:47 | 200 |     125.043µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:31:47] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_verify Match=false 
+[GIN] 2025/12/29 - 08:31:47 | 200 |    1.546893ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:31:49 | 200 |    3.653458ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[36mINFO[0m[2025-12-29 08:32:36] Debug CreateStorage: User=test_virtual IsAdmin=false MountPath=/ BasePath=/users/test_virtual 
+[GIN] 2025/12/29 - 08:32:37 | 200 |   396.56471ms |   192.168.215.1 | POST     "/api/admin/storage/create"
+[GIN] 2025/12/29 - 08:32:37 | 200 |     112.209µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:32:37] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_verify Match=false 
+[36mINFO[0m[2025-12-29 08:32:37] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_virtual Match=true 
+[GIN] 2025/12/29 - 08:32:37 | 200 |       817.8µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:32:41 | 200 |   11.595214ms |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 08:32:44 | 200 |    3.562291ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 08:32:44 | 200 |     118.418µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:32:44 | 200 |     128.376µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 08:32:44 | 200 |    1.986105ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:32:50 | 200 |     126.168µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 08:32:53 | 200 |      563.34µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 08:32:53 | 200 |       95.21µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:32:53 | 200 |     106.835µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:32:53] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[36mINFO[0m[2025-12-29 08:32:53] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_virtual Match=false 
+[GIN] 2025/12/29 - 08:32:53 | 200 |     696.216µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:32:55 | 200 |     535.339µs |   192.168.215.1 | GET      "/assets/Shares-BwhJXXPT.js"
+[GIN] 2025/12/29 - 08:32:55 | 200 |     683.508µs |   192.168.215.1 | GET      "/api/share/list"
+[GIN] 2025/12/29 - 08:32:56 | 200 |     111.001µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:32:56] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[36mINFO[0m[2025-12-29 08:32:56] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_virtual Match=false 
+[GIN] 2025/12/29 - 08:32:56 | 200 |     496.214µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:32:56 | 200 |     266.545µs |   192.168.215.1 | GET      "/api/share/list"
+[GIN] 2025/12/29 - 08:32:57 | 200 |     149.668µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:32:57] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[36mINFO[0m[2025-12-29 08:32:57] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_virtual Match=false 
+[GIN] 2025/12/29 - 08:32:57 | 200 |     776.176µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:32:59 | 200 |      93.667µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 08:33:02 | 200 |     423.254µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 08:33:02 | 200 |     101.793µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:33:02 | 200 |     108.918µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 08:33:02] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_verify Match=false 
+[36mINFO[0m[2025-12-29 08:33:02] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_virtual Match=true 
+[GIN] 2025/12/29 - 08:33:02 | 200 |    1.028136ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 08:33:04 | 200 |     136.419µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 08:33:04 | 200 |      90.668µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:33:04 | 200 |      28.458µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 08:33:04 | 200 |      78.959µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 08:33:04 | 200 |      83.918µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 08:33:04 | 200 |    1.642727ms |   192.168.215.1 | POST     "/api/fs/get"
+[GIN] 2025/12/29 - 08:33:04 | 200 |     1.46285ms |   192.168.215.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2025/12/29 - 08:33:04 | 200 |   580.82499ms |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 08:33:11 | 200 |      92.042µs |   192.168.215.1 | GET      "/api/me"
+[36mINFO[0m[2025-12-29 09:30:10] Start cache GC                               
+[36mINFO[0m[2025-12-29 10:30:10] Start cache GC                               
+[GIN] 2025/12/29 - 11:22:29 | 200 |    7.801324ms |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 11:22:29] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_verify Match=false 
+[36mINFO[0m[2025-12-29 11:22:29] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_virtual Match=true 
+[GIN] 2025/12/29 - 11:22:29 | 200 |    9.546364ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 11:22:44 | 200 |     103.874µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 11:22:44] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_verify Match=false 
+[36mINFO[0m[2025-12-29 11:22:44] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_virtual Match=true 
+[GIN] 2025/12/29 - 11:22:44 | 200 |     591.374µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 11:22:48 | 200 |     376.374µs |   192.168.215.1 | GET      "/api/share/list"
+[GIN] 2025/12/29 - 11:22:50 | 200 |     334.624µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 11:22:50] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_verify Match=false 
+[36mINFO[0m[2025-12-29 11:22:50] Debug Filter: User=test_virtual BasePath=/users/test_virtual Storage=/users/test_virtual Match=true 
+[GIN] 2025/12/29 - 11:22:50 | 200 |    1.122457ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 11:22:51 | 200 |     767.083µs |   192.168.215.1 | GET      "/assets/About-ClCiEKQy.js"
+[GIN] 2025/12/29 - 11:22:56 | 200 |       260.5µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 11:22:56 | 200 |      97.708µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:22:56 | 200 |       31.75µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 11:22:56 | 200 |     598.749µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 11:22:56 | 200 |      70.042µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:22:56 | 200 |    3.423371ms |   192.168.215.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2025/12/29 - 11:22:56 | 200 |    4.168953ms |   192.168.215.1 | POST     "/api/fs/get"
+[GIN] 2025/12/29 - 11:22:57 | 200 |  658.232365ms |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:22:59 | 200 |      86.333µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:23:07 | 200 |     560.291µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:23:07 | 200 |      59.833µs |   192.168.215.1 | GET      "/api/task/offline_download/done"
+[GIN] 2025/12/29 - 11:23:07 | 200 |     105.291µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:23:07 | 200 |       81.25µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/done"
+[GIN] 2025/12/29 - 11:23:09 | 200 |     282.666µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:23:09 | 200 |      84.625µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:23:10 | 200 |     121.583µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 11:23:13 | 200 |     516.208µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 11:23:13 | 200 |       75.25µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:23:13 | 200 |      42.083µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:23:13 | 200 |     179.792µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:23:13 | 200 |     251.666µs |   192.168.215.1 | GET      "/api/task/offline_download/done"
+[GIN] 2025/12/29 - 11:23:13 | 200 |      71.916µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/done"
+[GIN] 2025/12/29 - 11:23:15 | 200 |     196.875µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:23:15 | 200 |     196.999µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:23:17 | 200 |     214.708µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:23:17 | 200 |       132.5µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:23:19 | 200 |     264.625µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:23:19 | 200 |     191.292µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:23:21 | 200 |     257.583µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:23:21 | 200 |         258µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:23:23 | 200 |     231.499µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:23:23 | 200 |     166.708µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:23:24 | 200 |       111.5µs |   192.168.215.1 | GET      "/assets/Common-B3_XgFGR.js"
+[GIN] 2025/12/29 - 11:23:24 | 200 |     288.333µs |   192.168.215.1 | GET      "/assets/SettingItem-DSi8NF9k.js"
+[GIN] 2025/12/29 - 11:23:24 | 200 |     386.875µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=1"
+[GIN] 2025/12/29 - 11:23:28 | 200 |     8.06324ms |   192.168.215.1 | GET      "/api/admin/setting/list?group=2"
+[GIN] 2025/12/29 - 11:23:32 | 200 |     584.457µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=4"
+[GIN] 2025/12/29 - 11:23:37 | 200 |     318.458µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=7"
+[GIN] 2025/12/29 - 11:23:39 | 200 |     801.207µs |   192.168.215.1 | GET      "/assets/Other-CQzOsLC7.js"
+[GIN] 2025/12/29 - 11:23:39 | 200 |     311.291µs |   192.168.215.1 | GET      "/api/admin/setting/list?groups=5,0"
+[GIN] 2025/12/29 - 11:23:58 | 200 |     113.666µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=4"
+[GIN] 2025/12/29 - 11:24:05 | 200 |     327.874µs |   192.168.215.1 | POST     "/api/admin/setting/default?group=4"
+[GIN] 2025/12/29 - 11:24:08 | 200 |     116.291µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=7"
+[GIN] 2025/12/29 - 11:24:13 | 200 |     643.041µs |   192.168.215.1 | GET      "/api/admin/setting/list?groups=5,0"
+[GIN] 2025/12/29 - 11:24:15 | 200 |     563.624µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=11"
+[GIN] 2025/12/29 - 11:24:15 | 200 |     274.833µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=10"
+[GIN] 2025/12/29 - 11:24:17 | 200 |     237.208µs |   192.168.215.1 | GET      "/assets/S3-D05TAXL6.js"
+[GIN] 2025/12/29 - 11:24:17 | 200 |     451.583µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=9"
+[GIN] 2025/12/29 - 11:24:18 | 200 |       306.5µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=8"
+[GIN] 2025/12/29 - 11:24:20 | 200 |      94.542µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=7"
+[GIN] 2025/12/29 - 11:24:22 | 200 |     344.375µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=3"
+[GIN] 2025/12/29 - 11:24:22 | 200 |     114.167µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=2"
+[GIN] 2025/12/29 - 11:24:27 | 200 |    2.270038ms |   192.168.215.1 | POST     "/api/admin/setting/default?group=2"
+[GIN] 2025/12/29 - 11:24:32 | 200 |      95.833µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=1"
+[GIN] 2025/12/29 - 11:24:39 | 200 |     333.541µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=1"
+[GIN] 2025/12/29 - 11:24:57 | 200 |    2.536497ms |   192.168.215.1 | GET      "/api/admin/setting/list?group=2"
+[GIN] 2025/12/29 - 11:24:59 | 200 |     265.249µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=3"
+[GIN] 2025/12/29 - 11:25:00 | 200 |      436.25µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=4"
+[GIN] 2025/12/29 - 11:25:01 | 200 |      95.958µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=7"
+[GIN] 2025/12/29 - 11:25:08 | 200 |    1.507748ms |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 11:25:08 | 200 |    4.454952ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 11:25:16 | 200 |     652.916µs |   192.168.215.1 | GET      "/assets/backup-restore-ChuBZjmh.js"
+[GIN] 2025/12/29 - 11:25:22 | 200 |     464.708µs |   192.168.215.1 | GET      "/@manage/README_cn.md"
+[GIN] 2025/12/29 - 11:25:22 | 200 |      37.875µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 11:25:22 | 200 |     234.249µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 11:25:22 | 200 |     134.417µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:25:30 | 200 |      64.625µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 11:25:30 | 200 |      89.583µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:25:30 | 200 |     113.708µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 11:25:30 | 200 |      15.458µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 11:25:30 | 200 |      72.667µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:25:30 | 200 |     359.458µs |   192.168.215.1 | POST     "/api/fs/get"
+[GIN] 2025/12/29 - 11:25:30 | 200 |    2.809247ms |   192.168.215.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2025/12/29 - 11:25:30 | 200 |     414.166µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:25:32 | 200 |     176.667µs |   192.168.215.1 | POST     "/api/fs/get"
+[GIN] 2025/12/29 - 11:25:32 | 200 |     159.291µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:25:32 | 200 |      84.709µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:25:48 | 200 |     2.69033ms |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 11:25:51 | 200 |    2.567289ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 11:25:51 | 200 |     105.791µs |   192.168.215.1 | GET      "/api/me"
+[36mINFO[0m[2025-12-29 11:30:10] Start cache GC                               
+[33mWARN[0m[2025-12-29 11:30:10] not enable search                            
+[33mWARN[0m[2025-12-29 11:30:10] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[36mINFO[0m[2025-12-29 11:30:10] init offline download tool SimpleHttp success: ok 
+[36mINFO[0m[2025-12-29 11:30:10] init offline download tool PikPak success: ok 
+[36mINFO[0m[2025-12-29 11:30:10] init offline download tool ThunderBrowser success: ok 
+[36mINFO[0m[2025-12-29 11:30:10] init offline download tool ThunderX success: ok 
+[33mWARN[0m[2025-12-29 11:30:10] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[36mINFO[0m[2025-12-29 11:30:10] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2025-12-29 11:30:10] init offline download tool 115 Open success: ok 
+[36mINFO[0m[2025-12-29 11:30:10] init offline download tool 123 Open success: ok 
+[33mWARN[0m[2025-12-29 11:30:10] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[36mINFO[0m[2025-12-29 11:30:10] init offline download tool Thunder success: ok 
+[36mINFO[0m[2025-12-29 11:30:10] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2025-12-29 11:30:11] success load storage: [/users/test_verify], driver: [139Yun], order: [0] 
+[36mINFO[0m[2025-12-29 11:30:11] success load storage: [/users/test_virtual], driver: [139Yun], order: [0] 
+[GIN] 2025/12/29 - 11:30:22 | 405 |       2.625µs |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 11:30:22 | 200 |          79µs |   192.168.215.1 | GET      "/@manage/about"
+[GIN] 2025/12/29 - 11:30:22 | 405 |         709ns |   192.168.215.1 | HEAD     "/favicon.ico"
+[GIN] 2025/12/29 - 11:30:23 | 200 |     1.22579ms |   192.168.215.1 | GET      "/assets/index-BedYRc4e.js"
+[GIN] 2025/12/29 - 11:30:23 | 200 |         184µs |   192.168.215.1 | GET      "/assets/entry-YoSJvf2v.js"
+[GIN] 2025/12/29 - 11:30:23 | 200 |       98.25µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 11:30:23 | 200 |     587.666µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 11:30:23 | 200 |     327.041µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:30:23 | 200 |      50.375µs |   192.168.215.1 | GET      "/assets/useTitle-CsmRnqUX.js"
+[GIN] 2025/12/29 - 11:30:23 | 200 |      72.416µs |   192.168.215.1 | GET      "/assets/index-BEGrzjTR.js"
+[GIN] 2025/12/29 - 11:30:24 | 200 |    1.401998ms |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 11:30:24 | 200 |     181.333µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:30:24 | 200 |     165.083µs |   192.168.215.1 | GET      "/assets/index-BVES88d_.js"
+[GIN] 2025/12/29 - 11:30:24 | 200 |      45.542µs |   192.168.215.1 | GET      "/assets/index-BtqNHVQH.js"
+[GIN] 2025/12/29 - 11:30:24 | 200 |      67.167µs |   192.168.215.1 | GET      "/assets/index-CRc6z5Aj.js"
+[GIN] 2025/12/29 - 11:30:24 | 200 |     108.667µs |   192.168.215.1 | GET      "/assets/About-D5WGS1pO.js"
+[GIN] 2025/12/29 - 11:30:27 | 200 |       213.5µs |   192.168.215.1 | GET      "/assets/entry-Cy49lvaw.js"
+[GIN] 2025/12/29 - 11:30:31 | 200 |     196.167µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 11:30:35 | 200 |     334.041µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 11:30:35 | 200 |     184.917µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:32:27 | 200 |    3.557954ms |   192.168.215.1 | GET      "/assets/DeletePopover-B0vVj-rE.js"
+[GIN] 2025/12/29 - 11:32:27 | 200 |    4.295453ms |   192.168.215.1 | GET      "/assets/Storages-R3UZXGQx.js"
+[GIN] 2025/12/29 - 11:32:27 | 200 |    2.987538ms |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 11:32:27 | 200 |    2.189789ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     133.042µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     110.041µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:32:31 | 200 |      85.042µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 11:32:31 | 200 |      14.125µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     105.958µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     175.708µs |   192.168.215.1 | GET      "/assets/FolderTree-CU-NYgbJ.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |      40.875µs |   192.168.215.1 | GET      "/assets/share-C1H8r1Qr.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |      10.167µs |   192.168.215.1 | GET      "/assets/index-bk4w34UW.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     671.749µs |   192.168.215.1 | GET      "/assets/index-Cf8uYi8C.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |    3.398829ms |   192.168.215.1 | GET      "/assets/Layout-vp6gmL09.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |    1.095748ms |   192.168.215.1 | POST     "/api/fs/get"
+[GIN] 2025/12/29 - 11:32:31 | 200 |      938.54µs |   192.168.215.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     247.416µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:31 | 200 |      83.417µs |   192.168.215.1 | GET      "/assets/style-CBs9wRvG.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     158.833µs |   192.168.215.1 | GET      "/assets/Folder-Cj8SWCVu.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |      61.166µs |   192.168.215.1 | GET      "/assets/Paginator-dsjFI_KW.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     242.958µs |   192.168.215.1 | GET      "/assets/icon-Cio4bZTR.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     460.333µs |   192.168.215.1 | GET      "/assets/video_box-DDzkovjy.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |     340.833µs |   192.168.215.1 | GET      "/assets/helper-BjjtV35e.js"
+[GIN] 2025/12/29 - 11:32:31 | 200 |      48.958µs |   192.168.215.1 | GET      "/assets/List-CMIhHYvq.js"
+[GIN] 2025/12/29 - 11:32:33 | 200 |     745.249µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:34 | 200 |  594.684824ms |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:35 | 200 |     173.625µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:37 | 200 |     207.666µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:38 | 200 |     183.875µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:39 | 200 |  208.743915ms |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:43 | 200 |     208.666µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:44 | 200 |     141.833µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:46 | 200 |     170.667µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:47 | 200 |     196.083µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:48 | 200 |      145.75µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:52 | 200 |     216.042µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:53 | 200 |     292.874µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:55 | 200 |     144.666µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:32:58 | 200 |       155.5µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:33:03 | 200 |       83.75µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:33:03 | 200 |       64.75µs |   192.168.215.1 | GET      "/assets/PublicKeys-D8fOmF-H.js"
+[GIN] 2025/12/29 - 11:33:03 | 200 |      83.792µs |   192.168.215.1 | GET      "/assets/Profile-DYZf2vU9.js"
+[GIN] 2025/12/29 - 11:33:05 | 200 |      91.708µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 11:33:06 | 200 |     128.833µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 11:33:06 | 200 |     111.958µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:33:10 | 200 |       58.25µs |   192.168.215.1 | GET      "/assets/SettingItem-CSZEvt8v.js"
+[GIN] 2025/12/29 - 11:33:10 | 200 |      41.916µs |   192.168.215.1 | GET      "/assets/Common-DWGVnd1-.js"
+[GIN] 2025/12/29 - 11:33:10 | 200 |      38.458µs |   192.168.215.1 | GET      "/assets/ResponsiveGrid-BalPqyQC.js"
+[GIN] 2025/12/29 - 11:33:10 | 200 |         436µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=1"
+[GIN] 2025/12/29 - 11:33:12 | 200 |     282.667µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=2"
+[GIN] 2025/12/29 - 11:33:17 | 200 |     501.792µs |   192.168.215.1 | GET      "/assets/backup-restore-D37GPJJa.js"
+[GIN] 2025/12/29 - 11:33:21 | 200 |     148.875µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 11:33:21 | 200 |      84.292µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:33:21 | 200 |      30.042µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 11:33:21 | 200 |          65µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 11:33:21 | 200 |      86.042µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:33:21 | 200 |     282.458µs |   192.168.215.1 | POST     "/api/fs/get"
+[GIN] 2025/12/29 - 11:33:21 | 200 |     347.374µs |   192.168.215.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2025/12/29 - 11:33:21 | 200 |     155.708µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 11:33:40 | 200 |      89.125µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 11:33:49 | 200 |     135.375µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=1"
+[GIN] 2025/12/29 - 11:33:50 | 200 |     103.375µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=2"
+[GIN] 2025/12/29 - 11:33:51 | 200 |     117.791µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=1"
+[GIN] 2025/12/29 - 11:33:58 | 200 |    5.166202ms |   192.168.215.1 | GET      "/api/admin/setting/list?group=2"
+[GIN] 2025/12/29 - 11:34:27 | 200 |     770.207µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=1"
+[GIN] 2025/12/29 - 11:34:29 | 200 |     140.708µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=2"
+[GIN] 2025/12/29 - 11:34:30 | 200 |    1.922706ms |   192.168.215.1 | GET      "/api/admin/setting/list?group=3"
+[GIN] 2025/12/29 - 11:34:31 | 200 |     640.166µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=4"
+[GIN] 2025/12/29 - 11:34:32 | 200 |     285.374µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=7"
+[GIN] 2025/12/29 - 11:34:37 | 200 |      329.25µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=8"
+[GIN] 2025/12/29 - 11:34:40 | 200 |    2.035289ms |   192.168.215.1 | GET      "/assets/S3-BlLe5p-u.js"
+[GIN] 2025/12/29 - 11:34:40 | 200 |    1.232416ms |   192.168.215.1 | GET      "/api/admin/setting/list?group=9"
+[GIN] 2025/12/29 - 11:34:42 | 200 |      275.75µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=10"
+[GIN] 2025/12/29 - 11:34:43 | 200 |     332.375µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=11"
+[GIN] 2025/12/29 - 11:34:44 | 200 |     335.874µs |   192.168.215.1 | GET      "/assets/Other-Cx_K96x5.js"
+[GIN] 2025/12/29 - 11:34:44 | 200 |     296.458µs |   192.168.215.1 | GET      "/api/admin/setting/list?groups=5,0"
+[GIN] 2025/12/29 - 11:34:45 | 200 |     272.708µs |   192.168.215.1 | GET      "/api/admin/setting/list?group=11"
+[GIN] 2025/12/29 - 11:34:46 | 200 |      96.333µs |   192.168.215.1 | GET      "/api/admin/setting/list?groups=5,0"
+[GIN] 2025/12/29 - 11:34:49 | 200 |    2.183373ms |   192.168.215.1 | GET      "/assets/offline_download-ChF0aT3u.js"
+[GIN] 2025/12/29 - 11:34:49 | 200 |    5.573326ms |   192.168.215.1 | GET      "/assets/helper-BP5PPMa2.js"
+[GIN] 2025/12/29 - 11:34:49 | 200 |    1.775831ms |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:34:49 | 200 |       65.75µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:34:49 | 200 |      55.583µs |   192.168.215.1 | GET      "/api/task/offline_download/done"
+[GIN] 2025/12/29 - 11:34:49 | 200 |     103.374µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/done"
+[GIN] 2025/12/29 - 11:34:51 | 200 |     210.166µs |   192.168.215.1 | GET      "/api/task/offline_download/undone"
+[GIN] 2025/12/29 - 11:34:51 | 200 |     119.916µs |   192.168.215.1 | GET      "/api/task/offline_download_transfer/undone"
+[GIN] 2025/12/29 - 11:34:51 | 200 |     230.124µs |   192.168.215.1 | GET      "/assets/Upload-D5kbWYLL.js"
+[GIN] 2025/12/29 - 11:34:51 | 200 |     100.083µs |   192.168.215.1 | GET      "/api/task/upload/undone"
+[GIN] 2025/12/29 - 11:34:51 | 200 |      52.167µs |   192.168.215.1 | GET      "/api/task/upload/done"
+[GIN] 2025/12/29 - 11:34:53 | 200 |        83.5µs |   192.168.215.1 | GET      "/assets/Copy-Uq9Qry6b.js"
+[GIN] 2025/12/29 - 11:34:53 | 200 |       120.5µs |   192.168.215.1 | GET      "/api/task/copy/undone"
+[GIN] 2025/12/29 - 11:34:53 | 200 |        43.5µs |   192.168.215.1 | GET      "/api/task/copy/done"
+[GIN] 2025/12/29 - 11:34:54 | 200 |       38.25µs |   192.168.215.1 | GET      "/assets/Move-BAu5v8-Z.js"
+[GIN] 2025/12/29 - 11:34:54 | 200 |     102.458µs |   192.168.215.1 | GET      "/api/task/move/undone"
+[GIN] 2025/12/29 - 11:34:54 | 200 |      46.458µs |   192.168.215.1 | GET      "/api/task/move/done"
+[GIN] 2025/12/29 - 11:34:54 | 200 |     117.166µs |   192.168.215.1 | GET      "/assets/Decompress-C_UjkhEd.js"
+[GIN] 2025/12/29 - 11:34:54 | 200 |     102.834µs |   192.168.215.1 | GET      "/api/task/decompress/undone"
+[GIN] 2025/12/29 - 11:34:54 | 200 |      93.125µs |   192.168.215.1 | GET      "/api/task/decompress/done"
+[GIN] 2025/12/29 - 11:34:54 | 200 |      48.375µs |   192.168.215.1 | GET      "/api/task/decompress_upload/undone"
+[GIN] 2025/12/29 - 11:34:54 | 200 |      88.166µs |   192.168.215.1 | GET      "/api/task/decompress_upload/done"
+[GIN] 2025/12/29 - 11:34:56 | 200 |      206.25µs |   192.168.215.1 | GET      "/api/task/decompress/undone"
+[GIN] 2025/12/29 - 11:34:56 | 200 |      30.959µs |   192.168.215.1 | GET      "/api/task/decompress_upload/undone"
+[GIN] 2025/12/29 - 11:34:56 | 200 |     220.333µs |   192.168.215.1 | GET      "/assets/Wether-CDT38yee.js"
+[GIN] 2025/12/29 - 11:34:56 | 200 |     433.666µs |   192.168.215.1 | GET      "/assets/Users-zm3tmcqc.js"
+[GIN] 2025/12/29 - 11:34:56 | 200 |     998.374µs |   192.168.215.1 | GET      "/api/admin/user/list"
+[GIN] 2025/12/29 - 11:34:58 | 200 |     654.291µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 11:34:58 | 200 |     529.458µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 11:34:59 | 200 |     455.291µs |   192.168.215.1 | GET      "/assets/Shares-Cqqet02z.js"
+[GIN] 2025/12/29 - 11:34:59 | 200 |     454.708µs |   192.168.215.1 | GET      "/api/share/list"
+[GIN] 2025/12/29 - 11:34:59 | 200 |     529.666µs |   192.168.215.1 | GET      "/assets/Metas-CAN_0r0v.js"
+[GIN] 2025/12/29 - 11:34:59 | 200 |     451.458µs |   192.168.215.1 | GET      "/api/admin/meta/list"
+[GIN] 2025/12/29 - 11:35:00 | 200 |      109.75µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 11:35:00 | 200 |     529.957µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 11:35:01 | 200 |     569.374µs |   192.168.215.1 | GET      "/api/share/list"
+[GIN] 2025/12/29 - 11:35:02 | 200 |       229.5µs |   192.168.215.1 | GET      "/api/admin/meta/list"
+[GIN] 2025/12/29 - 11:35:39 | 200 |    7.470783ms |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 11:35:39 | 200 |    6.815825ms |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 11:35:40 | 200 |     340.416µs |   192.168.215.1 | GET      "/assets/AddOrEdit-BSb1n-d3.js"
+[GIN] 2025/12/29 - 11:35:40 | 200 |    5.502035ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[GIN] 2025/12/29 - 11:35:53 | 200 |     270.874µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 11:35:53 | 200 |     495.333µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 11:35:58 | 200 |     562.599µs |   192.168.215.1 | GET      "/api/admin/storage/get?id=6"
+[GIN] 2025/12/29 - 11:35:58 | 200 |     219.263µs |   192.168.215.1 | GET      "/api/admin/driver/info?driver=139Yun"
+[GIN] 2025/12/29 - 14:42:45 | 200 |     862.343µs |   192.168.215.1 | GET      "/"
+[GIN] 2025/12/29 - 14:42:45 | 200 |     2.66924ms |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 14:42:46 | 200 |      34.292µs |   192.168.215.1 | GET      "/api/public/archive_extensions"
+[GIN] 2025/12/29 - 14:42:46 | 200 |     147.126µs |   192.168.215.1 | GET      "/api/public/settings"
+[GIN] 2025/12/29 - 14:42:46 | 200 |      97.251µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 14:42:46 | 200 |     467.964µs |   192.168.215.1 | POST     "/api/fs/get"
+[GIN] 2025/12/29 - 14:42:46 | 200 |     151.877µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 14:42:46 | 200 |    3.919422ms |   192.168.215.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2025/12/29 - 14:42:47 | 200 |     217.586µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 14:42:49 | 200 |     173.919µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 14:42:50 | 200 |     158.794µs |   192.168.215.1 | POST     "/api/fs/list"
+[GIN] 2025/12/29 - 14:42:53 | 200 |      87.001µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 14:43:01 | 200 |      95.126µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[GIN] 2025/12/29 - 14:43:01 | 200 |     777.467µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 14:43:03 | 200 |      89.126µs |   192.168.215.1 | GET      "/api/auth/logout"
+[GIN] 2025/12/29 - 14:43:07 | 200 |     431.214µs |   192.168.215.1 | POST     "/api/auth/login/hash"
+[GIN] 2025/12/29 - 14:43:07 | 200 |      96.252µs |   192.168.215.1 | GET      "/api/me"
+[GIN] 2025/12/29 - 14:43:07 | 200 |      135.96µs |   192.168.215.1 | GET      "/api/admin/driver/names"
+[36mINFO[0m[2025-12-29 14:43:07] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_verify Match=true 
+[36mINFO[0m[2025-12-29 14:43:07] Debug Filter: User=test_verify BasePath=/users/test_verify Storage=/users/test_virtual Match=false 
+[GIN] 2025/12/29 - 14:43:07 | 200 |     633.758µs |   192.168.215.1 | GET      "/api/admin/storage/list"
+[GIN] 2025/12/29 - 14:43:13 | 200 |    3.312539ms |   192.168.215.1 | GET      "/api/admin/driver/list"
+[36mINFO[0m[2025-12-29 15:02:13] Start cache GC                               
+[36mINFO[0m[2025-12-29 16:02:22] Start cache GC                               
+[36mINFO[0m[2025-12-30 00:02:28] Start cache GC                               
+[36mINFO[0m[2025-12-30 00:52:31] Start cache GC                               
+[36mINFO[0m[2025-12-30 01:54:35] Start cache GC                               
+[36mINFO[0m[2025-12-30 03:03:56] Start cache GC                               
+[36mINFO[0m[2025-12-30 05:08:15] Start cache GC                               
+[36mINFO[0m[2025-12-30 06:38:45] Start cache GC                               
+[36mINFO[0m[2025-12-30 07:25:16] Start cache GC                               
+[36mINFO[0m[2025-12-30 08:29:19] Start cache GC                               
+[36mINFO[0m[2025-12-30 09:29:19] Start cache GC                               
+[36mINFO[0m[2025-12-30 14:03:41] Start cache GC                               
+[36mINFO[0m[2025-12-30 15:00:00] Start cache GC                               
+[36mINFO[0m[2025-12-30 16:00:00] Start cache GC                               
+[36mINFO[0m[2025-12-30 17:00:00] Start cache GC                               

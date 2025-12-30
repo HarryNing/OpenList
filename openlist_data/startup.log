@@ -1,0 +1,18 @@
+[36mINFO[0m[2025-12-29 05:44:42] reading config file: /opt/openlist/data/config.json 
+[36mINFO[0m[2025-12-29 05:44:42] load config from env with prefix: OPENLIST_  
+[36mINFO[0m[2025-12-29 05:44:42] max buffer limit: 1001MB                     
+[36mINFO[0m[2025-12-29 05:44:42] mmap threshold: 4MB                          
+[36mINFO[0m[2025-12-29 05:44:42] init logrus...                               
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
+Failed to write to log, can't open new logfile: open /opt/openlist/data/log/log.log: no such file or directory
