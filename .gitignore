@@ -34,4 +34,4 @@ output/
 .VSCodeCounter
 
 # Exclude compiled binary
-OpenList
+/OpenList
