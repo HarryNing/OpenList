@@ -8,7 +8,7 @@ RUN apk add --no-cache bash curl jq gcc git go musl-dev
 COPY go.mod go.sum ./
 ENV GOPROXY=https://goproxy.cn,direct
 RUN go mod download
-RUN go get github.com/OpenListTeam/OpenList/v4/drivers/openlist
+
 COPY ./ ./
 RUN bash build.sh release docker
 
