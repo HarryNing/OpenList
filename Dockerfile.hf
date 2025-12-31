@@ -28,9 +28,11 @@ RUN addgroup -g ${GID} ${USER} && \
     mkdir -p /opt/openlist/data && \
     mkdir -p /users && \
     mkdir -p /data && \
+    mkdir -p /app/data && \
     chown -R ${UID}:${GID} /opt/openlist/data && \
     chown -R ${UID}:${GID} /users && \
-    chown -R ${UID}:${GID} /data
+    chown -R ${UID}:${GID} /data && \
+    chown -R ${UID}:${GID} /app/data
 
 COPY --from=builder --chmod=755 --chown=${UID}:${GID} /app/bin/openlist ./
 COPY --chmod=755 --chown=${UID}:${GID} entrypoint.sh /entrypoint.sh
@@ -53,7 +55,8 @@ ENV UMASK=022 \
 # but we switched user above. Let's do it in the RUN block before switching user)
 
 USER root
-RUN rm -rf /opt/openlist/data && ln -s /data /opt/openlist/data && chown -h ${UID}:${GID} /opt/openlist/data
+RUN rm -rf /opt/openlist/data && ln -s /data /opt/openlist/data && chown -h ${UID}:${GID} /opt/openlist/data && \
+    rm -rf /app/data && ln -s /data /app/data && chown -h ${UID}:${GID} /app/data
 USER ${USER}
 
 VOLUME /data
