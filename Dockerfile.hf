@@ -54,14 +54,8 @@ ENV UMASK=022 \
 # (Need to run this as root or ensure permissions before switching user, 
 # but we switched user above. Let's do it in the RUN block before switching user)
 
-USER root
-RUN rm -rf /opt/openlist/data && ln -s /data /opt/openlist/data && chown -h ${UID}:${GID} /opt/openlist/data && \
-    rm -rf /app/data && ln -s /data /app/data && chown -h ${UID}:${GID} /app/data
 USER ${USER}
-
 VOLUME /data
 VOLUME /users
-
 EXPOSE 7860
-
 CMD [ "/entrypoint.sh" ]
