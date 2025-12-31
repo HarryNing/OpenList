@@ -35,5 +35,5 @@ EOF
       rm -rf "$ARIA2_DIR"
     fi
   fi
-  exec ./openlist server --no-prefix
+    exec ./openlist server --no-prefix --data /tmp/openlist_data
 fi
