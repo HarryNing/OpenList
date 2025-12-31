@@ -44,7 +44,7 @@ RUN /entrypoint.sh version
 ENV UMASK=022 \
     RUN_ARIA2=${INSTALL_ARIA2} \
     TOKEN_EXPIRES_IN=876000 \
-    HTTP_PORT=7860 \
+    OPENLIST_HTTP_PORT=7860 \
     # Force data directory to /data if possible, otherwise we symlink or configure
     # OpenList generally uses /opt/openlist/data/config.json. 
     # We can symlink /opt/openlist/data to /data for HF persistence
